@@ -1,1 +1,69 @@
-
+*{
+    margin: 0%;
+    padding: 0%;
+    font: inherit;
+    text-decoration: none;
+}
+a, a:hover, a:visited{
+    cursor: pointer;
+    text-decoration: none;
+    color: #369;
+}
+header,main{margin:0%; padding:0%;}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin:0% 5% 0% 5%;
+    padding: 0% 5% 0% 5%;
+    background-color: #336699;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 40px;
+    color: white;
+}
+#itensMenu{
+    display: absolute;
+    justify-content: space-around;
+}
+main{
+    margin-top: 4%;
+    margin-bottom: 0%;
+}
+#texto-centro{
+    text-align: center;
+}
+.oneFooter{
+    text-align: center;
+}
+#barraPesquisa{display: flex; justify-content: space-around;}
+form{
+    position: static;
+    padding: 0.5vh;
+    background-color:#FFB090;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 60%;
+}
+#pesquisar{
+    border-radius: 10px;
+    width: 80%;
+    align-self: left;
+    margin-left: 0;
+}
+#submit{
+    margin-left: 10%;
+    border-radius: 20%;
+    color: #354475;
+    font-size-adjust: ch-width;
+}
+.botoesBaixo{
+    display: flex;
+    width: 100%;
+    height: 20px;
+    margin-top: 1%;
+    border-top: 1px solid black;
+    justify-content: center;
+    
+}
